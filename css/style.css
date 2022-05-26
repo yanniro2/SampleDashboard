@@ -1,0 +1,584 @@
+*,
+*::after,
+*::-webkit-backdrop {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+*,
+*::after,
+*::backdrop {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  font-size: 64.5%;
+}
+
+body {
+  background-color: #eee;
+}
+
+.top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  width: 85%;
+  height: 10vh;
+}
+
+.left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100vh;
+  background-color: #2e2ee4;
+}
+
+.container {
+  margin: 10vh 0 0 15%;
+}
+
+.main {
+  width: 100%;
+  text-align: center;
+}
+
+.main-account {
+  margin: 2rem 1rem;
+}
+
+.main-account-heading {
+  margin: 1rem;
+  font-size: 1.4rem;
+  background-color: #00ccff;
+  color: #fff;
+  padding: 1rem;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.main-account-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.main-account-body_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main-account-body_input-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-account-body_input-left label {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: left;
+  margin: 1rem;
+}
+
+.main-account-body_input-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+}
+
+.main-account-body_input-right select,
+.main-account-body_input-right input {
+  font-size: 1.4rem;
+  background: #fff;
+  padding: 0.8rem;
+  border: 0.1rem solid #c9c7c7;
+  margin: 0.5rem;
+  text-transform: capitalize;
+}
+
+.main-account-body_show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 1rem;
+}
+
+.main-account-body_show-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem;
+}
+
+.main-account-body_show-left input {
+  margin: 1rem;
+}
+
+.main-account-body_show-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem;
+  text-align: left;
+}
+
+.main-account-body_show-right label {
+  margin: 1rem;
+  font-size: 1.4rem;
+}
+
+.main-account-body_total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 1rem;
+}
+
+.main-account-body_total-left {
+  margin: 1rem;
+  text-align: right;
+}
+
+.main-account-body_total-left p {
+  font-size: 1.4rem;
+  margin: 1rem;
+}
+
+.main-account-body_total-right {
+  margin: 1rem;
+  text-align: left;
+}
+
+.main-account-body_total-right p {
+  font-size: 1.4rem;
+  margin: 1rem;
+}
+
+.main-invoicable {
+  margin: 2rem 1rem;
+}
+
+.main-invoicable-headding {
+  background-color: #05728d;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.main-invoicable-headding ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+}
+
+.main-invoicable-headding li {
+  vertical-align: baseline;
+}
+
+.main-invoicable-headding li button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-invoicable-headding li button::after {
+  content: url("/css/icons/unfold_more_white_24dp.svg");
+  color: #fff;
+  height: 8px;
+}
+
+.main-invoicable-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.main-invoicable-body-invoice {
+  width: 50%;
+  padding: 1rem;
+}
+
+.main-invoicable-body-invoice_body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (min-content)[2];
+      grid-template-columns: repeat(2, -webkit-min-content);
+      grid-template-columns: repeat(2, min-content);
+  -ms-grid-rows: (min-content)[2];
+      grid-template-rows: repeat(2, -webkit-min-content);
+      grid-template-rows: repeat(2, min-content);
+  grid-gap: 2rem;
+  padding: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 0.5rem;
+}
+
+.main-invoicable-body-invoice_body-left {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem;
+}
+
+.main-invoicable-body-invoice_body-left .label {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 8rem 14rem;
+      grid-template-columns: 8rem 14rem;
+  -ms-grid-rows: (2rem)[2];
+      grid-template-rows: repeat(2, 2rem);
+  grid-gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-invoicable-body-invoice_body-left label {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+}
+
+.main-invoicable-body-invoice_body-left input,
+.main-invoicable-body-invoice_body-left select {
+  font-size: 1.4rem;
+  background: #c9c9c9;
+  border: 0.1rem solid #c9c7c7;
+  text-transform: capitalize;
+  padding: 1rem;
+}
+
+.main-invoicable-body-invoice_body-left select {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
+  border: none;
+}
+
+.main-invoicable-body-invoice_body-right {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem;
+}
+
+.main-invoicable-body-invoice_body-right .label {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 8rem 14rem;
+      grid-template-columns: 8rem 14rem;
+  -ms-grid-rows: (2rem)[2];
+      grid-template-rows: repeat(2, 2rem);
+  grid-gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-invoicable-body-invoice_body-right label {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+}
+
+.main-invoicable-body-invoice_body-right input {
+  font-size: 1.4rem;
+  background: #c9c9c9;
+  border: 0.1rem solid #c9c7c7;
+  text-transform: capitalize;
+  padding: 1rem;
+}
+
+.main-invoicable-body-invoice_body-right button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -0.6rem;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.main-invoicable-body-Addional {
+  width: 50%;
+  padding: 1rem;
+}
+
+.main-invoicable-body-Addional_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.main-invoicable-body-Addional_body .label {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10rem 30rem;
+      grid-template-columns: 10rem 30rem;
+  -ms-grid-rows: (max-content)[2];
+      grid-template-rows: repeat(2, -webkit-max-content);
+      grid-template-rows: repeat(2, max-content);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-invoicable-body-Addional_body label {
+  font-size: 1.4rem;
+}
+
+.main-invoicable-body-Addional_body select {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
+  border: none;
+  padding: 1rem;
+  margin: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.main-invoicable-body-Addional_body input,
+.main-invoicable-body-Addional_body textarea {
+  border: 0.1rem solid #c9c7c7;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.main-invoicable-body-Addional_body .comments {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 1rem;
+}
+
+.heading-style {
+  margin: 1rem;
+  font-size: 1.4rem;
+  background-color: #00ccff;
+  color: #fff;
+  padding: 1rem;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.heading-style-top {
+  font-size: 1.4rem;
+  background-color: #363636;
+  color: #fff;
+  padding: 1rem;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.submit-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 2rem;
+}
+
+.submit-buttons button {
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  background-color: green;
+  color: #fff;
+  margin: 1rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 0.5rem;
+}
+
+.submit-buttons .orange {
+  background-color: orange;
+  color: brown;
+  padding: 1rem 2rem;
+}
+/*# sourceMappingURL=style.css.map */

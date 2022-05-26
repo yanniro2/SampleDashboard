@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.left {
+  margin: 1rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  flex-direction: column;
+}
+.right {
+  margin: 1rem;
+}
+.label {
+  margin: 1rem;
+}
+
+input {
+  padding: 1rem;
+  background-color: #eee;
+  border: none;
+}
+
+select {
+  width: 81%;
+  padding: 1rem;
+  background-color: #eee;
+  border: none;
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- Section top -->
+    <section class="top">TOP</section>
+    <!-- Section left -->
+    <section class="left">left</section>
+
+    <!-- Section main -->
+    <div class="container">
+      <section class="main">
+        <!-- MAIN TOP HADDING -->
+        <div class="main-account">
+          <div class="main-account-heading">
+            <h1 class="main-account-heading_h1">Account Invoice</h1>
+          </div>
+          <!-- MAIN TOP BODY -->
+          <div class="main-account-body">
+            <!-- PART 1 -->
+            <div class="main-account-body_input">
+              <!-- PART 1 -LEFT -->
+              <div class="main-account-body_input-left">
+                <label for="study">Study</label>
+                <label for="attachments">Attachments</label>
+                <label for="Date-range">Date Range</label>
+              </div>
+              <!-- PART 1 - RIGHT -->
+              <div class="main-account-body_input-right">
+                <select name="study" id="check">
+                  <option value="none">Select Study</option>
+                  <option value="first">first</option>
+                  <option value="secound">secound</option>
+                </select>
+                <input
+                  type="file"
+                  class="custom-file-input"
+                  placeholder="Choose File"
+                />
+                <input type="date" name="date" id="" class="input-date" />
+              </div>
+            </div>
+            <!-- PART 2 -->
+            <div class="main-account-body_show">
+              <!-- PART 2 -LEFT -->
+              <div class="main-account-body_show-left">
+                <input type="checkbox" name="apply" id="" />
+                <input type="checkbox" name="qcd" id="" />
+              </div>
+              <!-- PART 2 -RIGHT -->
+              <div class="main-account-body_show-right">
+                <label for="apply">Apply with holding</label>
+                <label for="apply">QC's visitis only</label>
+              </div>
+            </div>
+            <!-- PART 3 -->
+            <div class="main-account-body_total">
+              <!-- PART 3 -LEFT -->
+              <div class="main-account-body_total-left">
+                <p>Total Amount:</p>
+                <p>W/H Amount:</p>
+                <p>Inv Amount:</p>
+              </div>
+              <!-- PART 3 -RIGHT -->
+              <div class="main-account-body_total-right">
+                <p>$0</p>
+                <p>$0</p>
+                <p>$0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- MAIN TOP CENTER -->
+        <div class="main-invoicable">
+          <div class="heading-style-top"><h1>Inociable Charges</h1></div>
+
+          <!-- MAIN FILTER  -->
+          <div class="main-invoicable-headding">
+            <ul>
+              <li><input type="checkbox" name="all" id="all" /></li>
+              <li><button>Initials</button></li>
+              <li><button>Screen#</button></li>
+              <li><button>Category</button></li>
+              <li><button>visit/item name</button></li>
+              <li><button>procedure type</button></li>
+              <li><button>doc</button></li>
+              <li><button>feel amt</button></li>
+              <li><button>w/h amt</button></li>
+              <li><button>invoiced amt</button></li>
+            </ul>
+          </div>
+          <!-- MAIN CONTAINER -->
+          <div class="main-invoicable-body">
+            <!-- MAIN CONTAINER -1-->
+            <div class="main-invoicable-body-invoice">
+              <div class="main-invoicable-body-invoice_heading heading-style">
+                <h1>Invoice Recipient</h1>
+              </div>
+              <div class="main-invoicable-body-invoice_body">
+                <!-- MAIN CONTAINER -1 SECTION -1-->
+
+                <!-- MAIN CONTAINER -1 SECTION -1- LEFT -->
+                <div class="main-invoicable-body-invoice_body-left">
+                  <div class="label">
+                    <label for="">Recipien</label>
+                    <select name="option" id="check">
+                      <option value="none">Select an option</option>
+                      <option value="first">first</option>
+                      <option value="secound">secound</option>
+                    </select>
+                  </div>
+                  <div class="label">
+                    <label for="">Payable To</label>
+                    <input type="text" name="payable" id="" />
+                  </div>
+                  <div class="label">
+                    <label for="">Company</label>
+                    <input type="text" name="payable" id="" />
+                  </div>
+                  <div class="label">
+                    <label for="">Address 1</label>
+                    <input type="text" name="payable" id="" />
+                  </div>
+                  <div class="label">
+                    <label for="">Phone</label>
+                    <input type="text" name="payable" id="" />
+                  </div>
+                  <div class="label">
+                    <label for="">State</label>
+                    <input type="text" name="payable" id="" />
+                  </div>
+                </div>
+                <!-- MAIN CONTAINER -1 SECTION -2-->
+                <div class="main-invoicable-body-invoice_body-right">
+                  <button>
+                    <img src="/css/icons/add_black_24dp.svg" alt="plus icon" />
+                    Add new recipient
+                  </button>
+                  <div class="content">
+                    <div class="label">
+                      <label for="">Tittle</label>
+                      <input type="text" name="title" id="" />
+                    </div>
+                    <div class="label">
+                      <label for="">Email</label>
+                      <input type="text" name="email" id="" />
+                    </div>
+                    <div class="label">
+                      <label for="">Address 2</label>
+                      <input type="text" name="address-2" id="" />
+                    </div>
+                    <div class="label">
+                      <label for="">City</label>
+                      <input type="text" name="city" id="" />
+                    </div>
+                    <div class="label">
+                      <label for="">Postcode</label>
+                      <input type="text" name="postcode" id="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- MAIN CONTAINER -2 -->
+            <div class="main-invoicable-body-Addional">
+              <div class="main-invoicable-body-Addional_heading heading-style">
+                <h1>Additional Information</h1>
+              </div>
+              <div class="main-invoicable-body-Addional_body">
+                <!-- MAIN CONTAINER -->
+
+                <div class="label">
+                  <label for="Pay-terms">Pay Terms</label>
+                  <select name="Pay-terms" id="check">
+                    <option value="none">Select an option</option>
+                    <option value="first">first</option>
+                    <option value="secound">secound</option>
+                  </select>
+                </div>
+
+                <div class="label">
+                  <label for="po">po#</label>
+                  <input type="text" name="po" id="" />
+                </div>
+                <div class="label">
+                  <label for="Invoice-Date">Invoice Date</label>
+                  <input type="date" name="Invoice-Date" id="" />
+                </div>
+
+                <div class="label">
+                  <label for="Comments" class="comments">Coments</label>
+                  <textarea
+                    name="Comments"
+                    id=""
+                    cols="10"
+                    rows="10"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="submit-buttons">
+          <button>Create Invoice</button>
+          <button>Create & Sent Invoice</button>
+          <button class="orange">Cancel</button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
